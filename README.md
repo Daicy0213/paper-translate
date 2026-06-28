@@ -12,27 +12,13 @@
 
 ## 安装
 
-### 方式一：git clone（推荐）
+在 Claude Code 或 OpenCode 会话中输入以下命令即可自动安装：
 
-将仓库克隆到 opencode 或 Claude 的全局 skill 目录：
-
-```bash
-# opencode 全局目录
-git clone https://github.com/Daicy0213/paper-translate.git %USERPROFILE%\.config\opencode\skills\translate-paper
-
-# 或者 Claude 全局目录
-git clone https://github.com/Daicy0213/paper-translate.git %USERPROFILE%\.claude\skills\translate-paper
+```
+install skill Daicy0213/paper-translate
 ```
 
-### 方式二：手动复制
-
-将 `.opencode/skills/translate-paper/` 文件夹复制到你的项目或全局 skill 目录中：
-
-| 位置 | 路径 |
-|------|------|
-| 项目级 (opencode) | `你的项目/.opencode/skills/translate-paper/` |
-| 全局 (opencode) | `~/.config/opencode/skills/translate-paper/` |
-| 全局 (Claude) | `~/.claude/skills/translate-paper/` |
+Agent 会自动将本仓库的 `translate-paper/` skill 安装到正确的全局目录。
 
 ## 使用方法
 
@@ -47,12 +33,10 @@ skill({ name: "translate-paper" })
 ### 项目结构
 
 ```
-.opencode/
-└── skills/
-    └── translate-paper/
-        ├── SKILL.md                   # 主 skill 定义
-        └── references/
-            └── format-guide.md        # 格式规范参考
+translate-paper/
+├── SKILL.md                   # 主 skill 定义
+└── references/
+    └── format-guide.md        # 格式规范参考
 ```
 
 ## 许可
