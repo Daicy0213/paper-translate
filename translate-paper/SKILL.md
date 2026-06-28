@@ -76,7 +76,7 @@ Chinese translation paragraph...
 - **In-text citations**: Use `(*Article Name*, Journal/Conference, Year)` format embedded directly in text, no separate References section
 - Example: `人类智能的一个独特特征是能够将面向任务的行动与语言推理（或内心独白，*Inner speech: development, cognitive functions, phenomenology, and neurobiology*, Psychological bulletin, 2015）无缝结合。`
 - Replace original `(Author et al., Year)` with `(*Article Name*, Journal/Conference, Year)` format
-- Do not保留 separate References list
+- Do not keep a separate References list
 
 #### 3.3 Technical Terminology (First Appearance)
 - **First appearance**: `中文翻译(English Full Name, Abbreviation)`

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "translate-paper-plugin",
+  "description": "Skill for translating academic paper PDFs into bilingual Chinese-English Markdown documents.",
+  "owner": {
+    "name": "Daicy0213"
+  },
+  "plugins": [
+    {
+      "name": "translate-paper",
+      "description": "Translate academic paper PDFs into bilingual Chinese-English Markdown documents with proper formatting for LaTeX formulas, citations, and technical terminology.",
+      "author": {
+        "name": "Daicy0213"
+      },
+      "category": "productivity",
+      "source": "./translate-paper"
+    }
+  ]
+}

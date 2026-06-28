@@ -1,0 +1,14 @@
+# Normalize line endings
+* text=auto
+
+# Python scripts must use LF (shebang/exec compatibility on Unix)
+*.py text eol=lf
+
+# Shell scripts use LF
+*.sh text eol=lf
+
+# Markdown / JSON / YAML auto-normalize
+*.md text=auto
+*.json text=auto
+*.yaml text=auto
+*.yml text=auto
