@@ -15,7 +15,7 @@
 在 Claude Code 或 OpenCode 会话中输入以下命令即可自动安装：
 
 ```
-install skill Daicy0213/paper-translate
+install skill https://github.com/Daicy0213/paper-translate/tree/main
 ```
 
 Agent 会自动将本仓库的 `translate-paper/` skill 安装到正确的全局目录。
